@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* Tag */
+ 
+/* Class. */ 
+.mainLine {
+	display: inline-block;
+	padding: 20px 0 20px 43px ;
+/* 	border: solid 1px red; */
+/* 	width: 16.5%;	 */
+	text-align: left;
+	border-top: hidden;
+	font-size: 10pt;
+}
+
+.mainLine1{
+	display: inline-block;
+	padding: 30px 0 30px 43px ;
+	background-color: transparent;
+	border-top: solid 1px #e9e9e9;
+	font-size: 8pt;
+}
+
+.push {
+	text-decoration: underline !important;
+	cursor: pointer !important;	
+}
+
+.container {	
+	width: 60%;
+	margin: 0 auto;	
+}
+
+.myAccountBanner {
+	width: 99.91%;
+}
+
+ul.logged {	
+	list-style-type: none;
+	display: flex;
+	flex-flow: row;
+	flex: 1 1 auto;	
+}
+
+
+.basicMenu {
+	vertical-align: middle;
+	text-align: center;
+	padding: 30px 50px 17px 5px;
+	font-size: 8px;
+	cursor: pointer;
+}
+
+.logoutMenu {
+	vertical-align: middle;
+	text-align: right;
+	padding: 30px 0px 17px 490px;
+	font-size: 9px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.welcomeMsg {
+	padding: 25px 0px 25px 43px;
+}
+
+.hello {
+	padding-bottom: 10px;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.explanation {
+	font-size: 8px;
+}
+
+
+.info {
+	text-overflow: ellipsis;
+}
+
+/* ID# */
+#orderTable {
+	border: solid 1px #e9e9e9;
+	width: 100%;
+}

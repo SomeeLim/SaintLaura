@@ -1,0 +1,222 @@
+
+.Mycontainer {
+    width : 60%;
+    margin: 0 auto;
+    font: 400 11px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+
+.subtitle {
+	font-size: 9.5pt;
+	font-weight: bold;
+	color: #000;
+}
+
+
+.afterEdit{
+	display: none;
+}
+
+.contents {
+	font-size: 8.5pt;
+	color: #000;
+	margin-bottom: 6px;
+}
+
+.pay-left, .pay-right {
+	border : solid 1px #e9e9e9;
+	padding: 20px;
+	height: 100vh;
+}
+
+input {
+	background-color:transparent;
+	border:solid 1px black;
+	margin-bottom: 6px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.isLogged {
+	font: Yoon Gothic,Malgun Gothic,Dotum,Arial,sans-serif;
+	letter-spacing: .05em;
+	padding-top: 80px;
+	padding-bottom: 20px;
+	text-align: right;
+}
+
+span.login-id {
+	color: black;	
+	font-size: 11pt;
+	text-transform: uppercase;	
+}
+
+.logout {
+	 text-align: right;
+	 display: inline-block;
+}
+.text {
+	font-size: 8.5pt;
+	text-underline-position: under;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.cartInfo {
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 5px 15px 5px;
+}
+
+.pay-top {
+	padding-right: 20px;
+    height: 70px;
+    background-color: #000;
+    line-height: 70px;
+    text-align: right;
+}
+.pay-top img {
+	height: 50px;
+}
+
+.contents>span.beforeEditDetail {
+	width: 130px !important;
+}
+
+.contents>span {
+	display: inline-block;
+	width: 65px;
+}
+.payInfo {
+	  color: #000;
+	  font-size: 10.5pt;
+	  text-transform: uppercase;		  
+}
+
+.payDeliveryType {
+	margin-top: 40px;
+}
+.payDeliveryType2 {
+	padding: 20px 50px 0 0;
+}
+.contentHoliday {
+	display: block;
+	margin: 10px 0;
+}
+
+.christmasGuaranteeOK {
+	padding: 20px 40px;
+}
+
+#pay-title {
+ 	padding-bottom: 20px;
+	display: block;
+	color : #000;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+#deliveryInfo {
+	
+	width: 300px;
+}
+
+#pay-btn {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.goPaymentBtn {
+	text-decoration: underline;
+	color: white;
+}
+
+.goPaymentBtn:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+
+#pay-img {
+	width : 30%;
+	float: left;
+	display: inline-block;
+}
+
+#pay-img img {
+	width : 100px;
+	margin-right: 10px;
+}
+
+.pay-pro {
+	width: 68%;
+	display: inline-block;
+	padding-top: 20px;
+	float: right;
+}
+
+.pay-mini {
+	padding: 20px 0 5px 50px;
+	text-align: right;
+}
+
+
+.pay-pri {
+	border-top : solid 1px #e9e9e9;
+	padding: 20px 5px 0 5px;
+}
+
+
+.aByPayment {
+	color: #000;
+    cursor: pointer;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+}
+.aByPayment:hover { color: #000; text-decoration: none;}
+
+.deliveryType {
+	white-space:nowrap;
+}
+.delivery:before {
+    content: ":  ";
+    white-space: pre;
+}
+.currency:after {
+    white-space: pre;
+    content: "   ";
+}
+
+
+.value {
+	display: inline-block;
+}
+
+.value-right {
+	float: right;
+	clear: both;
+}
+.value-right>span {
+	display: inline;
+}
+.totalPay {
+}
+
+.totalPayInfo4 {
+	padding-top: 10px;
+}
+.taxLabel {
+	display: inline; 
+	float: right; 
+	clear: both; 
+	margin-bottom: 10px;
+}
+
+
+

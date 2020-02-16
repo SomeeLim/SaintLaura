@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+.btn-Css {
+	background-color: black !important;
+	cursor: pointer;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.btn-another {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	padding: 10px;
+	margin: 0;
+	border: solid 1px black;	
+}
+
+.btn-third {
+	margin-top: 30px;
+	background-color: black !important;
+	color: white;
+	border-radius: 0;
+}
+
+.container {	
+	width: 60%;
+	margin: 0 auto;	
+}
+
+.customerServiceBanner {
+	width: 99.91%;
+}
+
+.customerTitle {
+	display: inline-block;
+	font-size: 18pt;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.customerFooter {
+	margin-top: 20px;
+	margin-left: 0px;
+	padding-left: 0px !important;
+}
+
+.footerTitle {
+	display:inline-block;
+	margin-bottom: 15px;
+}
+
+
+

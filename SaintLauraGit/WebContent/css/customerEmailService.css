@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.btn-Css {
+   background-color: black !important;
+   cursor: pointer;
+   color: white;
+   margin: 0;
+   padding: 0;
+}
+
+.btn-another {
+   display: inline-block;
+   background-color:  black !important;
+   width: 100%;
+   height: 30px;
+   padding: 10px;
+   margin: 0;
+   border: solid 1px black;   
+}
+
+.btn-third {
+   margin-top: 30px;
+   background-color: black !important;
+   color: white;
+   border-radius: 0;
+}
+
+.EmailServiceContainer {
+	
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 100px;
+	margin-bottom: 100px;
+}
+
+.csEmailLabel {
+	font-size: 8pt;
+}
+
+/* .csEmailInput {
+	margin-bottom: 10px;
+}
+ */
+ 
+.optionStyle {
+	font-size: 8pt;
+}
+
+.customerEmail_error {
+	font-size: 8pt;
+	color: red;
+}

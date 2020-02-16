@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+.storelocator-container {
+	width: 77%;
+	margin: 0 auto;	
+}
+
+#storeMap {
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.storeInfo {
+	width: 800px;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.infoLine {
+	margin-bottom: 20px;
+	line-height: 160%;
+}
